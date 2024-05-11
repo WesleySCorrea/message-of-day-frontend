@@ -1,0 +1,118 @@
+.container_login {
+    background-color: #E3E3E3;
+    border-radius: 10px;
+    border: 2px solid #000;
+    font-family: sans-serif;
+    padding: 10px;
+    width: 300px;
+    height: 340px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 1em;
+}
+
+.container_login h1 {
+    margin-left: 15px;
+    margin-bottom: 0;
+}
+
+.container_login form {
+    padding: 20px;
+    display: block;
+}
+
+.container_login label {
+    width: 10%;
+    float: left;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.container_login input {
+    padding: 10px;
+    width: 90%;
+    height: 20px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+}
+
+.container_login button {
+    /* background-color: #9ea4f0; */
+    background-color: #313f4b;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container_login button:hover{
+    background-color: #7495af;
+    width: 100%;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.container_login a {
+    text-decoration: none;
+    color: black;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px
+}
+
+.container_login a:hover {
+    text-decoration: underline;
+    color: blue;
+    height: 20px;
+    width: 200px;
+    margin-top: 20px;
+}
+
+.modal-overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 2px solid #000;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 80%;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-content button {
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+  }
+
+  .modal-content button:hover {
+    cursor: pointer;
+  }
